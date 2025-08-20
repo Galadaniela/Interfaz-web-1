@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color:  #333;
+    margin: auto;
+}
+h1{
+    font-size: 60px;
+}
+h1 strong{
+  font-family: 'Coiny', cursive;
+  font-size:  117px;
+  font-weight: 700;
+}
+h2{
+    font-size: 26px;
+    font-weight: 400;
+}
+h3{
+    font-weight: 900;
+}
+nav h1,
+footer h1{
+    font-family: 'Coiny', cursive;
+    margin: auto;
+}
+nav a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color:#333333;
+    padding: 10px;
+
+}
+.menu{
+  list-style-type:none ;
+  justify-content: space-around;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+    /* list-style: none; */
+
+}
+.Home:hover,
+.nav_serv:hover,
+.nav_cont:hover{
+    text-decoration: underline;
+    /* background-color: palevioletred; */
+}
+.h_nav{
+    font-family: 'Coiny', cursive;
+    padding-left: 10px;
+
+
+}
+.list{
+    text-decoration: none;   
+}
+.logo{
+    width: 200px;
+    height: 50px;
+}
+/* nav:hover{
+    text-decoration: underline;
+} */
+
+
+.caja_titulo {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+}
+
+.caja_titulo h1 {
+  font-size: 40px; 
+  margin: 0;
+}
+
+.caja_titulo h2 {
+  font-size: 19px; 
+  margin: 10px 0 0;
+  /* margin-left: 50px; */
+  text-align: center;
+  background-color:rgb(252, 238, 33);
+}
+.caja_titulo p{
+  margin-left: 50px;
+    
+}
+
+.foto1 {
+  /* max-width: 200px; */
+  width: 500px;
+  height: auto;
+  margin-left: 150px;
+
+}
+.info{
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px;
+  /* flex-direction: column; */
+}
+.info1,
+.info2{
+  display: flex;
+  flex-direction: column;
+}
+.info h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 27px;
+  font-weight: 900;
+  background-color: rgb(252, 238, 33);
+  text-align: center;
+}
+.servicios{
+  display: flex;
+  margin: 50px;
+  align-items: flex-start;
+  gap: 40px;
+  
+}
+.servicios img{
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  /* margin: 20px; */
+  /* margin: 10px 0 0; */
+  /* margin-left: 5%; */
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+   object-fit: cover;
+  display: block;
+}
+.servicios img,
+.lista1 {
+  flex: 1;             
+}
+.lista1{
+  display: flex;
+  flex-direction: column;
+  /* margin: 10px;
+  margin-left: 200px; */
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+.lista1 h4{
+  font-size: 41px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20px;
+
+  /* height: 100%; */
+}
+.lista1 ol{
+  font-family: Roboto;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.resaltado_s{
+  background-color:  rgb(252, 238, 33);
+  /* text-align: center; */
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+
+  
+}
+
+.contact{
+  display: flex;
+  margin: 0px;
+  padding: auto;
+}
+.contac_box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: 355px; 
+  justify-content: space-between;
+  background: linear-gradient(yellow, grey);
+  border-radius: 15px;
+  
+}
+.contac_box label{
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+}
+.contac_box input{
+  width: 300px;
+  height: 40px;
+}
+
+input,
+textarea {
+    width: 100%;
+    /* border: 20px; */
+    /* border-radius: 20% solid black ; */
+    /* background-color: black; */
+
+}
+input{
+  /* border: 20px solid black; */
+   border-radius: 20px ;
+}
+form {
+    /* margin: auto; */
+    padding: 10px;
+    /* align-items: center; */
+    text-align: left;
+    /* background-color: #333; */
+  
+
+}
+.contac_mensaje h4{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    background-color: #000000;
+    margin: 10px;
+}
+.contac_mensaje p{
+  font-family: Roboto;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    background-color:  rgb(252, 238, 33);
+    text-align: center;
+    margin: 10px;
+}
+.contac_button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+    padding: 0;
+    /* background: #333; */
+    cursor: pointer;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+button{
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+  /* margin-bottom: 10px; */
+  margin-left: 50px;
+  background-color: #000000;
+  color: wheat;
+  border-style: none;
+  /* align-items: flex-start; */
+  /* justify-content: space-between; */
+  
+  /* border-bottom:none; */
+
+}
+button:hover{
+  transform: scale(1.1) translateY(-3px);
+background-color: #333333;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color:  rgb(252, 238, 33);
+}
+.footer-div{
+  display: flex;
+  flex-direction: column;
+}
+footer a{
+ text-decoration: none;
+ color: #000000;
+ margin: auto;
+ /* margin-bottom: 20px; */
+ /* top: 20px;  */
+ /* right: 20px; */
+}
+footer img{
+  margin: 10px;
+  justify-content: space-between;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
